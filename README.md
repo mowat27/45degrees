@@ -43,7 +43,7 @@ Run `make .env` to generate a working `.env` file setting some defaults as shown
 
 ## Make Targets
 
-The following targets are useful when working with the app. See the [Makefile](/blob/master/Makefile) for more details.
+The following targets are useful when working with the app. See the [Makefile](/Makefile) for more details.
 
 | Target | Description |
 | ------ | ----------- |
@@ -59,7 +59,7 @@ The following targets are useful when working with the app. See the [Makefile](/
 
 ## Distribution
 
-Distributed under the [MIT License](/blob/master/LICENSE) You are welcome to copy and modify it if you find it helpful.
+Distributed under the [MIT License](/LICENSE) You are welcome to copy and modify it if you find it helpful.
 
 Please note it this code is MacOS only and **not fit for production**.
 
