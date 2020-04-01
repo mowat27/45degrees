@@ -43,6 +43,9 @@ clean-start: down prune build start
 bash:
 	docker-compose exec wordpress bash
 
+.PHONY: sh
+sh: bash
+
 .PHONY: web
 web:
 	open http://localhost:8080
