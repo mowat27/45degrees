@@ -15,6 +15,7 @@ services:
     volumes:
       - wordpress:/var/www/html
       - ${PWD}:/usr/share/code
+      - ${PWD}/wp-content:/var/www/html/wp-content
 
   db:
     image: mysql:5.7

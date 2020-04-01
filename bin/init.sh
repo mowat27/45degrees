@@ -13,5 +13,3 @@ wp --allow-root core install --url="localhost:${HOST_PORT}" \
                              --admin_user="${WP_ADMIN_USER}" \
                              --admin_email="${WP_ADMIN_USER}@example.com" \
                              --admin_password="${WP_ADMIN_PASSWORD}" 
-
-wp --allow-root plugin install wordpress-importer --activate
